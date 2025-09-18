@@ -5,7 +5,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 
 # 1. Load dataset
-df = pd.read_csv("job_candidates_large.csv")  # dataset must have 'Suitability' column (0/1)
+df = pd.read_csv("job_candidates_large.csv")
 print(df.head())
 
 # 2. Features & Target
